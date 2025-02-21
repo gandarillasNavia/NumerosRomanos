@@ -16,3 +16,6 @@ test("Convierte 5 a V", () => {
   expect(romano(5)).toEqual("V");
 });
 
+test("Convierte 10 a X", () => {
+  expect(romano(10)).toEqual("X");
+});

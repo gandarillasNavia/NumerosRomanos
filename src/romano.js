@@ -14,6 +14,10 @@ function romano(a) {
   if (a === 5) 
     {
       return "V";
+    }  
+  if (a === 10) 
+    {
+      return "X";
     }
 }
 
