@@ -11,6 +11,10 @@ function romano(a) {
     {
       return "III";
     }
+  if (a === 5) 
+    {
+      return "V";
+    }
 }
 
 export default romano;
