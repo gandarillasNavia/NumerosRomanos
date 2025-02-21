@@ -23,3 +23,7 @@ test("Convierte 10 a X", () => {
 test("Convierte 50 a L", () => {
   expect(romano(50)).toEqual("L");
 });
+
+test("Convierte 100 a C", () => {
+  expect(romano(100)).toEqual("C");
+});
