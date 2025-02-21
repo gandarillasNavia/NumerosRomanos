@@ -35,3 +35,19 @@ test("Convierte 500 a D", () => {
 test("Convierte 1000 a D", () => {
   expect(romano(1000)).toEqual("M");
 });
+
+test("Convierte 564 a DLXIV", () => {
+  expect(romano(564)).toEqual("DLXIV");
+});
+
+test("Convierte 666 a DCLXVI", () => {
+  expect(romano(666)).toEqual("DCLXVI");
+});
+
+test("Convierte 73 a LXXIII", () => {
+  expect(romano(73)).toEqual("LXXIII");
+});
+
+test("Convierte 354 a CCCLIV", () => {
+  expect(romano(354)).toEqual("CCCLIV");
+});
