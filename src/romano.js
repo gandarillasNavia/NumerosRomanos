@@ -7,6 +7,7 @@ function romano(a) {
   if (a === 50) return "L";
   if (a === 100) return "C";
   if (a === 500) return "D";
+  if (a === 1000) return "M";
 }
 
 export default romano;
