@@ -8,5 +8,9 @@ test("Convierte 2 a II", () => {
   expect(romano(2)).toEqual("II");
 });
 
+test("Convierte 3 a III", () => {
+  expect(romano(3)).toEqual("III");
+});
+
 
 

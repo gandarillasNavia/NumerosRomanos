@@ -1,7 +1,7 @@
 import romano from "./romano";
 
 const first = document.querySelector("#numero");
-const form = document.querySelector("#romano-form");
+const form = document.querySelector("#convertir-form");
 const div = document.querySelector("#resultado-div");
 
 form.addEventListener("submit", (event) => {
