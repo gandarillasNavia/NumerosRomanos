@@ -1,4 +1,4 @@
-import romano from "./romano";
+import romano from "./romano.js";
 
 const first = document.querySelector("#numero");
 const form = document.querySelector("#convertir-form");
@@ -9,5 +9,5 @@ form.addEventListener("submit", (event) => {
 
   const firstNumber = Number.parseInt(first.value);
 
-  div.innerHTML = "<p>" + romano(firstNumber) + "</p>";
+  div.textContent = romano(firstNumber);
 });
